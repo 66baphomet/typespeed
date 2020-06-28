@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #1B2631;
+}
+header{
+    background-color: #7F8C8D;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.description{
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.app{
+    height: 200px;
+    width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.app div{
+    height: 200px;
+    width: 120px;
+    font-size: 150px;
+    text-align: center;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 80px;
+    font-size: large;
+}
+
+.timerDiv{
+    margin: 0 auto;
+    width: 480px;
+    height: 30px;
+    visibility: hidden;
+}
+
+input{
+    visibility: hidden;
+}
+
+.wpmcpm{
+    margin: 0 auto;
+    width: 480px;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.correct{
+    background-color: #58D68D;
+}
+
+.wrong{
+    background-color: #EC7063;
+    
+}
+
+.current{
+    background-color: #AED6F1 ;
+    text-decoration: underline;
+}
+
+footer{
+    background-color:  #7F8C8D;
+    margin-top: 65px;
+}
+
+footer p{
+    padding: 5px;
+}
+
+@media (max-width: 1080px) {  
+    .app{
+        height: 120px;
+        width: 360px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .app div{
+        height: 120px;
+        width: 90px;
+        font-size: 90px;
+        text-align: center;
+    }
+    
+    button{
+        width: 120px;
+        margin-top: 40px;
+    }
+    
+    .timerDiv{
+        width: 360px;
+    }
+
+    input{
+        visibility: visible;
+    }
+    
+    .wpmcpm{
+        width: 360px;
+    }
+}
